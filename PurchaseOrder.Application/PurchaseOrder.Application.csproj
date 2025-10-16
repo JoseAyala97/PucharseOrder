@@ -24,7 +24,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Features\PurchaseOrderItem\Commands\" />
     <Folder Include="Features\PurchaseOrder\Commands\UpdatePurchaseOrder\" />
   </ItemGroup>
 
