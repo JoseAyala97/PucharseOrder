@@ -4,7 +4,7 @@ namespace PurchaseOrder.Application.Features.PurchaseOrderItem
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class PurchaseOrderItemController
+    public class PurchaseOrderItemsController : ControllerBase
     {
     }
 }

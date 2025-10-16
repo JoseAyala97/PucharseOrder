@@ -7,7 +7,7 @@ namespace PurchaseOrder.Application.Features.Product
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class ProductController(IMediator _Mediator) : ControllerBase
+    public class ProductsController(IMediator _Mediator) : ControllerBase
     {
         [HttpGet]
         public async Task<ActionResult<IReadOnlyList<ProductDto>>> GetAll(CancellationToken ct)
